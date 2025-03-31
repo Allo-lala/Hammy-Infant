@@ -13,6 +13,15 @@
     z-index: 99;
 }
 
+#logo {
+    display: inline-block;
+    margin: 15px;
+    float: none;
+    height: 60px;
+    width: auto;
+    /* border-radius: 50%; */
+}
+
 
 /*** Spinner ***/
 #spinner {
@@ -81,7 +90,7 @@ h4,
 .display-4,
 .display-5,
 .display-6 {
-    font-family: 'Lobster Two', cursive;
+    font-family: sans-serif;
     font-weight: 700;
 }
 
@@ -93,7 +102,7 @@ h6,
 }
 
 .font-secondary {
-    font-family: 'Lobster Two', cursive;
+    font-family: sans-serif;
 }
 
 
@@ -160,6 +169,23 @@ h6,
     }
 }
 
+/* whatsapp button */
+.whatsappButton {
+    position: fixed;
+    left: 45px;
+    bottom: 20px;
+    z-index: 99;
+    width: 60px;
+    height: 60px;
+    background-color: #04f85d;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
 
 /*** Header ***/
 .header-carousel::before,
